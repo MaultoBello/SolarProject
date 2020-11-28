@@ -1,0 +1,124 @@
+﻿PVObject_=pvShading
+  Comment=Prab's Roof
+  Version=7.1.0
+  Flags=$20200000
+  NOrient_Shd=1
+  Precision=1
+  FracOmbreMod=1.000
+  FracOmbreThin=0.400
+  OrientTolerance=1.0
+  GCROffset=1.0
+
+  ListeObjets, list of=2 TShdObject
+
+    PVObject_1=pvShdArrayRect
+      Comment=(Multi) Rectangular field
+      Version=7.1.0
+      Flags=$02200024
+      NoObjCreated=2
+      NPElements=5
+      NPElemRes=5
+      NElements=1
+      NElemRes=1
+      ColorTechn=$00FF0000
+      ColorSurf=$00FF9999
+      ColorBord=$00505050
+      DOrigine=-23.858,0.968,8.313
+      DInclin=40.0
+      DAzimut=-160.0
+    NElemChamps=1
+    NoOrient=-1
+    PanneauPVName=CS6A - 235MS;0.984#1.324
+    ModSpacingX=0.020
+    ModSpacingY=0.020
+    NModInHeight=1
+    NModInWidth=8
+    ModuleOrient=moPortrait
+      LongA=15,
+      LargA=9.2,
+      XOrig=0,
+      YOrig=0,
+      TypeOrigine=1
+    End of PVObject pvShdArrayRect
+
+    PVObject_2=pvShdBuilding
+      Comment=Building object
+      Version=7.1.0
+      Flags=$02200004
+      NoObjCreated=1
+      ColorSurf=$C0FF
+      DOrigine=0.000,0.000,0.000
+      DInclin=0.0
+      DAzimut=-70.0
+
+      ListeObjetsElem, list of=2 TShdObject
+
+        PVObject_1=pvShdElemObject
+          Comment=4-sided roof
+          Version=7.1.0
+          Flags=$02200004
+          NoObjCreated=1
+          ColorSurf=$0002409B
+          ColorBord=$0002409B
+          DOrigine=0.000,0.000,8.000
+          DInclin=0.0
+          ObjetElemType=oeFour_sided_Roof
+          Params=14.500,30.500,16.000,40.000,
+        End of PVObject pvShdElemObject
+
+        PVObject_2=pvShdElemObject
+          Comment=4-sided roof
+          Version=7.1.0
+          Flags=$02200004
+          NoObjCreated=2
+          ColorSurf=$0002409B
+          ColorBord=$0002409B
+          DOrigine=-7.250,15.250,8.000
+          DInclin=0.0
+          DAzimut=90.0
+          ObjetElemType=oeFour_sided_Roof
+          Params=14.500,24.500,10.000,40.000,
+        End of PVObject pvShdElemObject
+      End of ListeObjetsElem
+    End of PVObject pvShdBuilding
+  End of ListeObjets
+
+  ObjectsGroups, list of=6 TGroupeObjetsOmbrage
+    ObjectsGroup=1
+      PVObject_=pvShdObjectGroup
+        Comment=Roof2.dae
+        Version=7.1.0
+        Flags=$00
+      End of PVObject pvShdObjectGroup
+    ObjectsGroup=2
+      PVObject_=pvShdObjectGroup
+        Comment=Roof7.dae
+        Version=7.1.0
+        Flags=$00
+      End of PVObject pvShdObjectGroup
+    ObjectsGroup=3
+      PVObject_=pvShdObjectGroup
+        Comment=Roof7.dae
+        Version=7.1.0
+        Flags=$00
+      End of PVObject pvShdObjectGroup
+    ObjectsGroup=4
+      PVObject_=pvShdObjectGroup
+        Comment=Roof7.dae
+        Version=7.1.0
+        Flags=$00
+      End of PVObject pvShdObjectGroup
+    ObjectsGroup=5
+      PVObject_=pvShdObjectGroup
+        Comment=Roof7.dae
+        Version=7.1.0
+        Flags=$00
+      End of PVObject pvShdObjectGroup
+    ObjectsGroup=6
+      PVObject_=pvShdObjectGroup
+        Comment=Roof7.dae
+        Version=7.1.0
+        Flags=$00
+      End of PVObject pvShdObjectGroup
+  End of List ObjectsGroups
+End of PVObject pvShading
