@@ -38,7 +38,7 @@
   End of PVObject pvSite
 
   PVObject_MeteoSimul=pvMeteo
-    Flags=$84E3
+    Flags=$8423
     NomF=Beijing_Peking_MN72_SYN.MET
     SiteM=Beijing/Peking
     SourceM=MeteoNorm 7.2 station
@@ -112,7 +112,7 @@
         Flags=$001F2005
         Flags2=$0020
         SubArrayId=2
-        PVModule=Canadian_CS3K-315MS_1500V.PAN
+        PVModule=Canadian_CS6U-340M-AG.PAN
         GInverter=Enphase_IQ7PLUS_72_INT.OND
         NModSerie=1
         NStringCh=18
@@ -120,12 +120,12 @@
         NInverter=17
         NInvMPPT=1
         AreaSizing=35.0
-        PNomSizing=6.6
+        PNomSizing=6.1
         PowerSharingInverterId=-1
         PNomAC_InMPPT=0.29
         PQualityModU=3.00
         PQualityModI=3.00
-        PQualityModP=-0.40
+        PQualityModP=3.00
         PMismMPP=2.00
         PMismUFixe=2.50
         PMismString=0.10
